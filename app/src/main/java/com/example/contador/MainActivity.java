@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void botonClick(View view){
+        i++;
         TextView contador = findViewById(R.id.txtContar);
         contador.setText(String.valueOf(i));
-        i++;
     }
 }

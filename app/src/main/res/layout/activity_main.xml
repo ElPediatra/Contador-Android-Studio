@@ -16,13 +16,15 @@
         app:layout_constraintBottom_toTopOf="@+id/txtContar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
 
     <Button
         android:id="@+id/botonClick"
         android:layout_width="176dp"
         android:layout_height="118dp"
-        android:text="Pulsame"
+        android:onClick="botonClick"
+        android:text="@string/botonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,11 +35,12 @@
         android:layout_width="125dp"
         android:layout_height="62dp"
         android:gravity="center"
-        android:text="0"
+        android:text="@string/txtContar"
         android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/botonClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tituloContador" />
+        app:layout_constraintTop_toBottomOf="@+id/tituloContador"
+        tools:ignore="TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
