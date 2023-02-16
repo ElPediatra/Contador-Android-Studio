@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contabile</string>
+    <string name="tituloContador">Contabile di Alberto</string>
+    <string name="txtContar">0</string>
+    <string name="botonClick">Premi me</string>
+</resources>
